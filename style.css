@@ -45,18 +45,30 @@ input::placeholder {
     color: #ffffff;
 }
 
-.plus, .divide, .equal, .minus, .multiply {
+.operator {
     background-color: #fca009;
     color: #ffffff;
+}
+
+.operator:hover {
+    background-color: #ff9e03c8;
 }
 
 .r1 {
     background-color: #a5a5a5;
 }
 
+.r1:hover {
+    background-color: #6f6c6c;
+}
+
 .btn {
     background-color: #333333;
     color: #ffffff;
+}
+
+.btn:hover {
+    background-color: #1b1b1b;
 }
 
 .keyset-5 {
